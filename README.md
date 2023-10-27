@@ -22,3 +22,9 @@ Get started with the Discord Token Generator in no time with these simple steps:
 3. Then, launch the application with:
 ```python main.py```
 
+> NOTE
+ i made this tool/project to help developers get into machine learning and ai development through something fun, i intend no harm or whatsoever to anyones system. This is just a fun powerful project which people can modify and test out new things with it or use it for their own personal benefits. If you decide to skid please give me credits because it almost took me 3 weeks to complete this project due to college and lack of time plus it was lowkey hard to figure out the algorithms to autotrain the models continously.
+
+
+Thank for using my project.
+
